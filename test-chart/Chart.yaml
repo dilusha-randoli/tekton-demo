@@ -2,9 +2,9 @@ apiVersion: v2
 name: randoli-agent-dev1-subchart
 description: Sub Helm chart for Randoli Agents
 type: application
-version: 2.2.0-rc.11
-appVersion: "1.22.0"
+version: 9.9.9-rc.1
+appVersion: "8.8.8-rc.1"
 dependencies:
   - name: randoli-agent
-    version: 2.2.0-rc.11
+    version: 9.9.9-rc.1
     repository: https://helm.randoli.io
